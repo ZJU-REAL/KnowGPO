@@ -26,8 +26,8 @@
 ## 🔥 Overview
 We introduce **KnowGPO**, a Knowledge-Grouped Policy Optimization framework designed for deep search agents.
 <div align="center" style="display:flex; justify-content:center; gap:20px; align-items:flex-start;">
-  <img src="docs/sdar/sdar_teaser.png" alt="motivation" style="width:40%;">
-  <img src="docs/sdar/sdart_method.png" alt="method" style="width:58%;">
+  <!-- <img src="docs/sdar/sdar_teaser.png" alt="motivation" style="width:40%;"> -->
+  <img src="assets/intro.png" alt="method" style="width:100%;">
 </div>
 
 ## 🎉 News
@@ -42,7 +42,7 @@ We introduce **KnowGPO**, a Knowledge-Grouped Policy Optimization framework desi
 ## 🤖 Method
 
 <p align="center">
-  <img src="assets/knowgpo_framework.png" alt="KnowGPO training pipeline" width="90%">
+  <img src="assets/method.png" alt="KnowGPO training pipeline" width="90%">
 </p>
 
 KnowGPO operates through three key components:
@@ -56,23 +56,23 @@ KnowGPO operates through three key components:
 ## 📊 Performance
 
 <p align="center">
-  <img src="assets/main_results.png" alt="Main Results" width="90%">
+  <img src="assets/experiments.png" alt="Main Results" width="90%">
 </p>
 
 KnowGPO consistently outperforms outcome-only and process-supervision baselines across three challenging deep search benchmarks. On BrowseComp-ZH, it achieves 38.8% (+5.9% over GRPO), matching the 32B DeepMiner-RL agent. On GAIA, it reaches 40.2% (+5.2% over GRPO), surpassing all tested process-supervision methods. On Xbench-2505, it improves to 48.0%, outperforming GRPO, GiGPO, and IGPO while using an 8B backbone.
 
-<p align="center">
-  <img src="assets/training_curves.png" alt="Training Curves" width="70%">
+<!-- <p align="center">
+  <img src="assets/.png" alt="Training Curves" width="70%">
 </p>
 
-Training dynamics show KnowGPO opening a clear gap over baselines by step 20 and maintaining consistent improvement throughout training, suggesting that knowledge-grouped credit assignment provides denser supervision across the entire learning process.
+Training dynamics show KnowGPO opening a clear gap over baselines by step 20 and maintaining consistent improvement throughout training, suggesting that knowledge-grouped credit assignment provides denser supervision across the entire learning process. -->
 
 ## 🔖 Repository Layout
 
 ```text
 knowgpo/                          # KnowGPO core: knowledge state and grouping logic (code release coming soon)
 assets/                           # Figures, logos, and visualization resources
-
+```
 
 ## 🤝 Acknowledgement
 
