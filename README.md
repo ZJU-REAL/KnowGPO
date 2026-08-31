@@ -1,8 +1,8 @@
 <h1 align="center">
   <!-- <img src="assets/KnowGPO_logo.png" alt="KnowGPO logo" width="42%"><br> -->
-  KnowGPO
+  KnowGPO: Knowledge-Grouped Policy Optimization for Search Agent
 </h1>
-<h3 align="center"><em><ins>Know</ins>ledge-<ins>G</ins>rouped <ins>P</ins>olicy <ins>O</ins>ptimization for Search Agents</em></h3>
+<!-- <h3 align="center"><em><ins>Know</ins>ledge-<ins>G</ins>rouped <ins>P</ins>olicy <ins>O</ins>ptimization for Search Agents</em></h3> -->
 
 <p align="center">
   <a href="#"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b"></a>
